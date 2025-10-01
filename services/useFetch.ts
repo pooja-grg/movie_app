@@ -1,6 +1,3 @@
-//fetchMovies
-//fetchMOvieDetails
-
 import { useEffect, useState } from "react";
 
 const useFetch = <T>(fetchFunction: () => Promise<T>, autoFetch = true) => {
